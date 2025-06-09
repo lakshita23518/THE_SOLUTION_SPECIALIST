@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Law Services Mega Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #1f1f2e;
+            /* dark navy */
+            display: flex;
+            padding: 0 20px;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 16px;
+            text-decoration: none;
+            display: block;
+            position: relative;
+        }
+
+        .navbar a:hover {
+            background-color: #333;
+        }
+
+        /* Dropdown */
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            background-color: #f9f9f9;
+            min-width: 800px;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .dropdown-content .column {
+            flex: 1 0 22%;
+            /* 4 columns */
+            padding: 10px;
+        }
+
+        .dropdown-content a {
+            color: #333;
+            padding: 5px 0;
+            text-decoration: none;
+            display: block;
+            font-size: 14px;
+        }
+
+        .dropdown-content a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <div class="dropdown">
+            <a href="services.html">Services ▼</a>
+            <div class="dropdown-content">
+
+                <!-- Column 1 -->
+                <div class="column">
+                    <a href="#">Admiralty Law</a>
+                    <a href="#">Animal Law</a>
+                    <a href="#">Arbitration</a>
+                    <a href="#">Aviation Law</a>
+                    <a href="#">Banking & Finance</a>
+                    <a href="#">Civil Rights / Human Rights</a>
+                    <a href="#">Constitutional Law</a>
+                    <a href="#">Commercial Law</a>
+                    <a href="#">Company Law</a>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="column">
+                    <a href="#">Competition Law/Anti Trust Law</a>
+                    <a href="#">Consumer Laws</a>
+                    <a href="#">Contract Act</a>
+                    <a href="#">Crime against Schedule Caste & Tribes</a>
+                    <a href="#">Crime against Women</a>
+                    <a href="#">Criminal Law</a>
+                    <a href="#">Equity Capital Markets</a>
+                    <a href="#">Educational Law</a>
+                    <a href="#">Entertainment and Media Laws</a>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="column">
+                    <a href="#">Environmental Law</a>
+                    <a href="#">Family Law</a>
+                    <a href="#">Fashion Laws</a>
+                    <a href="#">Food and Beverage Laws</a>
+                    <a href="#">Immigration Law</a>
+                    <a href="#">Income Tax</a>
+                    <a href="#">Indirect Tax</a>
+                    <a href="#">Insurance Law</a>
+                    <a href="#">Labour and Employment</a>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="column">
+                    <a href="#">Law of Compensation</a>
+                    <a href="#">International trade & Anti-dumping</a>
+                    <a href="#">Pharmaceutical Industries</a>
+                    <a href="#">Law of Telecommunication</a>
